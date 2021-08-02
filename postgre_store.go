@@ -5,6 +5,7 @@ import (
 	"errors"
 	"github.com/google/uuid"
 	"log"
+	_ "github.com/lib/pq"
 )
 
 var userPostgresQueries = []string{
